@@ -16,3 +16,4 @@ from .ddpm import DDPMScheduler
 from .pndm import PNDMScheduler
 from .rectified_flow import RFlowScheduler
 from .scheduler import NoiseSchedules, Scheduler
+from .diffusers_wrapper import DiffusersSchedulerAdapter
